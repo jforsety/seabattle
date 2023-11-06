@@ -26,7 +26,7 @@ class BoardOutException(BoardException):
 
 class BoardUsedException(BoardException):
     def __str__(self):
-        return "Вы уже стреляли в эту клетку"
+        return "Вы уже стреляли в эту клетку!"
 
 
 class BoardWrongShipException(BoardException):
